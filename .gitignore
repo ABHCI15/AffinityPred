@@ -1,3 +1,6 @@
 datasets
+nohup.out
 *.out
 *.log
+code
+.gitignore

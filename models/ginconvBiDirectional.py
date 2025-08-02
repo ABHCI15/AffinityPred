@@ -1,4 +1,3 @@
-
 import pandas as pd
 import torch
 import torch.nn as nn
@@ -95,7 +94,7 @@ class BiDirectionalCrossAttention(nn.Module):
         """
         Args:
             prot_emb: [batch_size, seq_len, embed_dim] or [batch_size, embed_dim]
-            mol_emb: [batch_size, seq_len, embed_dim] or [batch_size, embed_dim]
+            mol_emb: [batch_size, embed_dim]
         """
         # Ensure inputs have sequence dimension
         if prot_emb.dim() == 2:
