@@ -1,0 +1,644 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+
+Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/cysdb
+
+[2025-07-21 15:26:38] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-07-21 15:26:38] info [russh::server] wrote id
+[2025-07-21 15:26:38] info [russh::server] read other id
+[2025-07-21 15:26:38] info [russh::server] session is running
+[2025-07-21 15:26:47] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-07-21 15:26:47] info [russh::server] wrote id
+[2025-07-21 15:26:47] info [russh::server] read other id
+[2025-07-21 15:26:47] info [russh::server] session is running
+[2025-07-21 15:26:51] info [rpc.0] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-21 15:26:51] info [rpc.0] Starting server...
+[2025-07-21 15:26:51] info [rpc.0] Server started
+[2025-07-21 15:28:10] info [rpc.0] Disposed of connection to running server.
+[2025-07-21 15:28:12] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-07-21 15:28:12] info [russh::server] wrote id
+[2025-07-21 15:28:12] info [russh::server] read other id
+[2025-07-21 15:28:12] info [russh::server] session is running
+[2025-07-21 15:28:16] info [rpc.2] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-21 15:28:16] info [rpc.2] Starting server...
+[2025-07-21 15:28:16] info [rpc.2] Server started
+[2025-07-21 15:59:32] info [rpc.2] Disposed of connection to running server.
+[2025-07-21 16:03:48] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-07-21 16:03:48] info [russh::server] wrote id
+[2025-07-21 16:03:48] info [russh::server] read other id
+[2025-07-21 16:03:48] info [russh::server] session is running
+[2025-07-21 16:03:49] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-07-21 16:03:49] info [russh::server] wrote id
+[2025-07-21 16:03:52] info [russh::server] read other id
+[2025-07-21 16:03:52] info [russh::server] session is running
+[2025-07-21 16:04:03] info [rpc.4] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-21 16:04:03] info [rpc.4] Found running server (pid=1595099)
+[2025-07-21 16:04:12] info [rpc.4] Forwarding port 9004 (public=false)
+[2025-07-21 16:04:12] info [rpc.4] Forwarding port 9000 (public=false)
+[2025-07-21 16:04:13] info [rpc.4] Forwarding port 9001 (public=false)
+[2025-07-21 16:04:13] info [rpc.4] Forwarding port 9002 (public=false)
+[2025-07-21 16:04:13] info [rpc.4] Forwarding port 9003 (public=false)
+[2025-07-21 16:04:13] info [rpc.4] Forwarding port 45209 (public=false)
+[2025-07-21 16:04:13] info [rpc.4] Forwarding port 34617 (public=false)
+[2025-07-21 16:37:19] info [rpc.4] Disposed of connection to running server.
+[2025-07-21 16:51:50] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 7
+[2025-07-21 16:51:50] info [russh::server] wrote id
+[2025-07-21 16:51:50] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 8
+[2025-07-21 16:51:50] info [russh::server] wrote id
+[2025-07-21 16:51:50] info [russh::server] read other id
+[2025-07-21 16:51:50] info [russh::server] session is running
+[2025-07-21 16:51:50] info [russh::server] read other id
+[2025-07-21 16:51:50] info [russh::server] session is running
+[2025-07-21 16:51:55] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 9
+[2025-07-21 16:51:55] info [russh::server] wrote id
+[2025-07-21 16:51:55] info [russh::server] read other id
+[2025-07-21 16:51:55] info [russh::server] session is running
+[2025-07-21 16:52:03] info [rpc.5] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-21 16:52:03] info [rpc.5] Found running server (pid=1595099)
+[2025-07-21 17:15:25] info [rpc.5] Disposed of connection to running server.
+[2025-07-21 18:12:26] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-07-21 18:12:26] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-07-21 20:01:21] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-07-21 20:01:21] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-07-21 20:38:24] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-07-21 20:38:24] info [russh::server] wrote id
+[2025-07-21 20:38:24] info [russh::server] read other id
+[2025-07-21 20:38:24] info [russh::server] session is running
+[2025-07-21 20:38:29] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-07-21 20:38:29] info [russh::server] wrote id
+[2025-07-21 20:38:29] info [russh::server] read other id
+[2025-07-21 20:38:29] info [russh::server] session is running
+[2025-07-21 20:38:37] info [rpc.6] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-21 20:38:37] info [rpc.6] Starting server...
+[2025-07-21 20:38:37] info [rpc.6] Server started
+[2025-07-21 20:40:10] warn [rpc.6] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-21 20:40:10] info [rpc.6] Disposed of connection to running server.
+[2025-07-21 20:40:13] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-07-21 20:40:13] info [russh::server] wrote id
+[2025-07-21 20:40:13] info [russh::server] read other id
+[2025-07-21 20:40:13] info [russh::server] session is running
+[2025-07-21 20:40:20] info [rpc.8] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-21 20:40:20] info [rpc.8] Found running server (pid=1611694)
+[2025-07-21 21:50:15] info [rpc.8] Forwarding port 46317 (public=false)
+[2025-07-21 23:57:44] info [rpc.8] Disposed of connection to running server.
+[2025-07-22 13:57:58] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-07-22 13:57:58] info [russh::server] wrote id
+[2025-07-22 13:57:58] info [russh::server] read other id
+[2025-07-22 13:57:58] info [russh::server] session is running
+[2025-07-22 13:58:04] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-07-22 13:58:04] info [russh::server] wrote id
+[2025-07-22 13:58:05] info [russh::server] read other id
+[2025-07-22 13:58:05] info [russh::server] session is running
+[2025-07-22 13:58:12] info [rpc.9] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 13:58:12] info [rpc.9] Starting server...
+[2025-07-22 13:58:12] info [rpc.9] Server started
+[2025-07-22 13:58:39] info [rpc.9] Forwarding port 37177 (public=false)
+[2025-07-22 13:58:58] warn [rpc.9] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-22 13:58:58] info [rpc.9] Disposed of connection to running server.
+[2025-07-22 13:58:59] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 7
+[2025-07-22 13:58:59] info [russh::server] wrote id
+[2025-07-22 13:58:59] info [russh::server] read other id
+[2025-07-22 13:58:59] info [russh::server] session is running
+[2025-07-22 13:59:07] info [rpc.11] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 13:59:07] info [rpc.11] Found running server (pid=1682987)
+[2025-07-22 13:59:11] info [rpc.11] Forwarding port 37177 (public=false)
+[2025-07-22 13:59:49] info [rpc.11] Forwarding port 34725 (public=false)
+[2025-07-22 14:00:37] warn [rpc.11] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-22 14:00:37] info [rpc.11] Disposed of connection to running server.
+[2025-07-22 14:00:38] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 8
+[2025-07-22 14:00:38] info [russh::server] wrote id
+[2025-07-22 14:00:38] info [russh::server] read other id
+[2025-07-22 14:00:38] info [russh::server] session is running
+[2025-07-22 14:00:46] info [rpc.12] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 14:00:46] info [rpc.12] Found running server (pid=1682987)
+[2025-07-22 14:00:49] info [rpc.12] Forwarding port 37177 (public=false)
+[2025-07-22 14:04:29] info [rpc.12] Forwarding port 9008 (public=false)
+[2025-07-22 14:04:30] info [rpc.12] Forwarding port 9009 (public=false)
+[2025-07-22 14:04:30] info [rpc.12] Forwarding port 9005 (public=false)
+[2025-07-22 14:04:30] info [rpc.12] Forwarding port 9006 (public=false)
+[2025-07-22 14:04:30] info [rpc.12] Forwarding port 9007 (public=false)
+[2025-07-22 14:04:30] info [rpc.12] Forwarding port 35325 (public=false)
+[2025-07-22 14:05:33] info [rpc.12] Forwarding port 9004 (public=false)
+[2025-07-22 14:05:33] info [rpc.12] Forwarding port 9000 (public=false)
+[2025-07-22 14:05:33] info [rpc.12] Forwarding port 9001 (public=false)
+[2025-07-22 14:05:34] info [rpc.12] Forwarding port 9002 (public=false)
+[2025-07-22 14:05:34] info [rpc.12] Forwarding port 9003 (public=false)
+[2025-07-22 14:05:34] info [rpc.12] Forwarding port 41019 (public=false)
+[2025-07-22 14:16:56] info [rpc.12] Unforwarding port 9004
+[2025-07-22 14:16:56] info [rpc.12] Unforwarding port 9000
+[2025-07-22 14:16:57] info [rpc.12] Unforwarding port 9001
+[2025-07-22 14:16:57] info [rpc.12] Unforwarding port 9002
+[2025-07-22 14:16:57] info [rpc.12] Unforwarding port 9003
+[2025-07-22 14:20:32] info [rpc.12] Disposed of connection to running server.
+[2025-07-22 14:20:32] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 9
+[2025-07-22 14:20:32] info [russh::server] wrote id
+[2025-07-22 14:20:33] info [russh::server] read other id
+[2025-07-22 14:20:33] info [russh::server] session is running
+[2025-07-22 14:33:36] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 10
+[2025-07-22 14:33:36] info [russh::server] wrote id
+[2025-07-22 14:33:36] info [russh::server] read other id
+[2025-07-22 14:33:36] info [russh::server] session is running
+[2025-07-22 14:33:44] info [rpc.13] Unforwarding port 37177
+[2025-07-22 14:33:44] info [rpc.13] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 14:33:44] info [rpc.13] Found running server (pid=1682987)
+[2025-07-22 14:33:45] info [rpc.13] Forwarding port 35563 (public=false)
+[2025-07-22 15:10:29] info [rpc.13] Disposed of connection to running server.
+[2025-07-22 20:17:28] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-07-22 20:17:28] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-07-22 20:21:40] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-07-22 20:21:40] info [russh::server] wrote id
+[2025-07-22 20:21:40] info [russh::server] read other id
+[2025-07-22 20:21:40] info [russh::server] session is running
+[2025-07-22 20:21:40] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-07-22 20:21:40] info [russh::server] wrote id
+[2025-07-22 20:21:44] info [russh::server] read other id
+[2025-07-22 20:21:44] info [russh::server] session is running
+[2025-07-22 20:22:07] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-07-22 20:22:07] info [russh::server] wrote id
+[2025-07-22 20:22:07] info [russh::server] read other id
+[2025-07-22 20:22:07] info [russh::server] session is running
+[2025-07-22 20:22:14] info [rpc.14] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 20:22:14] info [rpc.14] Starting server...
+[2025-07-22 20:22:14] info [rpc.14] Server started
+[2025-07-22 20:22:34] info [rpc.14] Disposed of connection to running server.
+[2025-07-22 20:22:34] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-07-22 20:22:34] info [russh::server] wrote id
+[2025-07-22 20:22:34] info [russh::server] read other id
+[2025-07-22 20:22:34] info [russh::server] session is running
+[2025-07-22 20:22:38] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-07-22 20:22:38] info [russh::server] wrote id
+[2025-07-22 20:39:22] info [russh::server] read other id
+[2025-07-22 20:39:22] info [russh::server] session is running
+[2025-07-22 20:45:36] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 7
+[2025-07-22 20:45:36] info [russh::server] wrote id
+[2025-07-22 20:45:36] info [russh::server] read other id
+[2025-07-22 20:45:36] info [russh::server] session is running
+[2025-07-22 20:45:43] info [rpc.16] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 20:45:43] info [rpc.16] Found running server (pid=1696377)
+[2025-07-22 21:02:13] info [rpc.16] Disposed of connection to running server.
+[2025-07-22 21:18:44] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 8
+[2025-07-22 21:18:44] info [russh::server] wrote id
+[2025-07-22 21:18:44] info [russh::server] read other id
+[2025-07-22 21:18:44] info [russh::server] session is running
+[2025-07-22 21:18:51] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 9
+[2025-07-22 21:18:51] info [russh::server] wrote id
+[2025-07-22 21:18:51] info [russh::server] read other id
+[2025-07-22 21:18:51] info [russh::server] session is running
+[2025-07-22 21:18:59] info [rpc.17] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 21:18:59] info [rpc.17] Found running server (pid=1696377)
+[2025-07-22 21:25:03] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 10
+[2025-07-22 21:25:03] info [russh::server] wrote id
+[2025-07-22 21:25:03] info [russh::server] read other id
+[2025-07-22 21:25:03] info [russh::server] session is running
+[2025-07-22 21:25:03] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 11
+[2025-07-22 21:25:03] info [russh::server] wrote id
+[2025-07-22 21:25:06] info [russh::server] read other id
+[2025-07-22 21:25:06] info [russh::server] session is running
+[2025-07-22 21:25:18] info [rpc.18] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 21:25:18] info [rpc.19] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 21:25:18] info [rpc.18] Found running server (pid=1696377)
+[2025-07-22 21:25:18] info [rpc.19] Found running server (pid=1696377)
+[2025-07-22 21:47:26] info [rpc.18] Disposed of connection to running server.
+[2025-07-22 21:47:26] info [rpc.19] Disposed of connection to running server.
+[2025-07-22 21:47:26] info [rpc.17] Disposed of connection to running server.
+[2025-07-22 22:16:02] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 12
+[2025-07-22 22:16:02] info [russh::server] wrote id
+[2025-07-22 22:16:02] info [russh::server] read other id
+[2025-07-22 22:16:02] info [russh::server] session is running
+[2025-07-22 22:16:03] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 13
+[2025-07-22 22:16:03] info [russh::server] wrote id
+[2025-07-22 22:16:03] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 14
+[2025-07-22 22:16:03] info [russh::server] wrote id
+[2025-07-22 22:16:03] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 15
+[2025-07-22 22:16:03] info [russh::server] wrote id
+[2025-07-22 22:16:06] error [tunnels::connections::relay_tunnel_host] error handshaking session: EOF
+[2025-07-22 22:16:06] error [tunnels::connections::relay_tunnel_host] error handshaking session: EOF
+[2025-07-22 22:16:06] error [tunnels::connections::relay_tunnel_host] error handshaking session: EOF
+[2025-07-22 22:16:07] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 16
+[2025-07-22 22:16:07] info [russh::server] wrote id
+[2025-07-22 22:16:07] info [russh::server] read other id
+[2025-07-22 22:16:07] info [russh::server] session is running
+[2025-07-22 22:16:15] info [rpc.20] Checking /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/log.txt and /home/nroethler/.vscode/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/pid.txt for a running server...
+[2025-07-22 22:16:15] info [rpc.20] Found running server (pid=1696377)
+[2025-07-22 22:41:26] info [rpc.20] Disposed of connection to running server.
+[2025-07-23 11:25:39] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 17
+[2025-07-23 11:25:39] info [russh::server] wrote id
+[2025-07-23 11:25:39] info [russh::server] read other id
+[2025-07-23 11:25:39] info [russh::server] session is running
+[2025-07-23 11:25:46] info [rpc.21] Checking /home/nroethler/.vscode/cli/servers/Stable-c306e94f98122556ca081f527b466015e1bc37b0/log.txt and /home/nroethler/.vscode/cli/servers/Stable-c306e94f98122556ca081f527b466015e1bc37b0/pid.txt for a running server...
+[2025-07-23 11:25:47] info [rpc.21] Downloading Visual Studio Code server -> /tmp/.tmpJ9WAKm/vscode-server-linux-x64.tar.gz
+[2025-07-23 11:25:58] info [rpc.21] Starting server...
+[2025-07-23 11:25:58] info [rpc.21] Server started
+[2025-07-23 11:26:28] info [rpc.21] Forwarding port 33023 (public=false)
+[2025-07-23 11:28:26] info [rpc.21] Unforwarding port 33023
+[2025-07-23 11:30:46] warn [rpc.21] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-23 11:30:46] info [rpc.21] Disposed of connection to running server.
+[2025-07-23 11:30:48] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 18
+[2025-07-23 11:30:48] info [russh::server] wrote id
+[2025-07-23 11:30:48] info [russh::server] read other id
+[2025-07-23 11:30:48] info [russh::server] session is running
+[2025-07-23 11:30:55] info [rpc.23] Checking /home/nroethler/.vscode/cli/servers/Stable-c306e94f98122556ca081f527b466015e1bc37b0/log.txt and /home/nroethler/.vscode/cli/servers/Stable-c306e94f98122556ca081f527b466015e1bc37b0/pid.txt for a running server...
+[2025-07-23 11:30:55] info [rpc.23] Found running server (pid=1756462)
+[2025-07-23 11:31:32] info [rpc.23] Updating CLI to 1.102.2 (commit c306e94f98122556ca081f527b466015e1bc37b0)
+[2025-07-23 11:31:58] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 19
+[2025-07-23 11:31:58] info [russh::server] wrote id
+[2025-07-23 11:31:58] info [russh::server] read other id
+[2025-07-23 11:31:58] info [russh::server] session is running
+[2025-07-23 11:31:59] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 20
+[2025-07-23 11:31:59] info [russh::server] wrote id
+[2025-07-23 11:31:59] info [russh::server] read other id
+[2025-07-23 11:31:59] info [russh::server] session is running
+[2025-07-23 11:32:01] warn [rpc.23] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-23 11:32:01] info [rpc.23] Disposed of connection to running server.
+[2025-07-23 11:32:01] warn respawn requested, starting new server
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+[2025-07-23 11:32:01] info [rpc.23] Updating CLI to 1.102.2 (commit c306e94f98122556ca081f527b466015e1bc37b0)
+[2025-07-23 11:32:01] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 19
+[2025-07-23 11:32:01] info [russh::server] wrote id
+[2025-07-23 11:32:01] info [russh::server] read other id
+[2025-07-23 11:32:01] info [russh::server] session is running
+[2025-07-23 11:32:01] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 20
+[2025-07-23 11:32:01] info [russh::server] wrote id
+[2025-07-23 11:32:01] info [russh::server] read other id
+[2025-07-23 11:32:01] info [russh::server] session is running
+[2025-07-23 11:32:01] warn [rpc.23] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-23 11:32:01] info [rpc.23] Disposed of connection to running server.
+[2025-07-23 11:32:01] warn respawn requested, starting new server
+Connected to an existing tunnel process running on this machine.
+
+Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/cysdb
+
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+
+Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/AffinityPred
+
+[2025-07-30 17:35:36] info Shutting down: Ctrl-C received
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+
+Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/AffinityPred
+
+[2025-07-30 17:36:50] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-07-30 17:36:50] info [russh::server] wrote id
+[2025-07-30 17:36:50] info [russh::server] read other id
+[2025-07-30 17:36:50] info [russh::server] session is running
+[2025-07-30 17:36:58] info [rpc.0] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-30 17:36:58] info [rpc.0] Downloading Visual Studio Code server -> /tmp/.tmpKC8NN9/vscode-server-linux-x64.tar.gz
+[2025-07-30 17:37:52] info [rpc.0] Starting server...
+[2025-07-30 17:37:52] info [rpc.0] Server started
+[2025-07-30 17:38:11] info [rpc.0] Forwarding port 5782 (public=false)
+[2025-07-30 17:41:07] info [rpc.0] Disposed of connection to running server.
+[2025-07-30 17:41:07] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-07-30 17:41:07] info [russh::server] wrote id
+[2025-07-30 17:41:07] info [russh::server] read other id
+[2025-07-30 17:41:07] info [russh::server] session is running
+[2025-07-30 17:48:33] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-07-30 17:48:33] info [russh::server] wrote id
+[2025-07-30 17:48:33] info [russh::server] read other id
+[2025-07-30 17:48:33] info [russh::server] session is running
+[2025-07-30 17:48:37] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-07-30 17:48:37] info [russh::server] wrote id
+[2025-07-30 17:48:37] info [russh::server] read other id
+[2025-07-30 17:48:37] info [russh::server] session is running
+[2025-07-30 17:48:45] info [rpc.2] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-30 17:48:45] info [rpc.2] Found running server (pid=71951)
+[2025-07-30 17:48:51] info [rpc.2] Forwarding port 5782 (public=false)
+[2025-07-30 17:48:58] info [rpc.2] Forwarding port 3512 (public=false)
+[2025-07-30 17:48:59] info [rpc.2] Forwarding port 3604 (public=false)
+[2025-07-30 17:50:17] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-07-30 17:50:17] info [russh::server] wrote id
+[2025-07-30 17:50:17] info [russh::server] read other id
+[2025-07-30 17:50:17] info [russh::server] session is running
+[2025-07-30 17:50:17] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 7
+[2025-07-30 17:50:17] info [russh::server] wrote id
+[2025-07-30 17:50:17] info [russh::server] read other id
+[2025-07-30 17:50:17] info [russh::server] session is running
+[2025-07-30 17:50:18] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 8
+[2025-07-30 17:50:18] info [russh::server] wrote id
+[2025-07-30 17:50:18] info [russh::server] read other id
+[2025-07-30 17:50:18] info [russh::server] session is running
+[2025-07-30 17:50:21] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 9
+[2025-07-30 17:50:21] info [russh::server] wrote id
+[2025-07-30 17:50:21] info [russh::server] read other id
+[2025-07-30 17:50:21] info [russh::server] session is running
+[2025-07-30 17:57:23] info [rpc.2] Disposed of connection to running server.
+[2025-07-30 17:57:24] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 10
+[2025-07-30 17:57:24] info [russh::server] wrote id
+[2025-07-30 17:57:24] info [russh::server] read other id
+[2025-07-30 17:57:24] info [russh::server] session is running
+[2025-07-30 17:57:44] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 11
+[2025-07-30 17:57:44] info [russh::server] wrote id
+[2025-07-30 17:57:44] info [russh::server] read other id
+[2025-07-30 17:57:44] info [russh::server] session is running
+[2025-07-30 17:57:52] info [rpc.3] Unforwarding port 5782
+[2025-07-30 17:57:52] info [rpc.3] Unforwarding port 3512
+[2025-07-30 17:57:52] info [rpc.3] Unforwarding port 3604
+[2025-07-30 17:57:52] info [rpc.3] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-30 17:57:52] info [rpc.3] Found running server (pid=71951)
+[2025-07-30 18:14:49] info [rpc.3] Disposed of connection to running server.
+[2025-07-30 18:40:17] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 12
+[2025-07-30 18:40:17] info [russh::server] wrote id
+[2025-07-30 18:40:17] info [russh::server] read other id
+[2025-07-30 18:40:17] info [russh::server] session is running
+[2025-07-30 18:40:30] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 13
+[2025-07-30 18:40:30] info [russh::server] wrote id
+[2025-07-30 18:40:30] info [russh::server] read other id
+[2025-07-30 18:40:30] info [russh::server] session is running
+[2025-07-30 18:40:38] info [rpc.4] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-30 18:40:38] info [rpc.4] Found running server (pid=71951)
+[2025-07-30 18:57:19] info [rpc.4] Disposed of connection to running server.
+[2025-07-30 20:28:24] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-07-30 20:28:24] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-07-30 21:21:03] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-07-30 21:21:03] info [russh::server] wrote id
+[2025-07-30 21:21:04] info [russh::server] read other id
+[2025-07-30 21:21:04] info [russh::server] session is running
+[2025-07-30 21:21:04] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-07-30 21:21:04] info [russh::server] wrote id
+[2025-07-30 21:21:04] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-07-30 21:21:04] info [russh::server] wrote id
+[2025-07-30 21:21:07] info [russh::server] read other id
+[2025-07-30 21:21:07] info [russh::server] session is running
+[2025-07-30 21:21:07] info [russh::server] read other id
+[2025-07-30 21:21:07] info [russh::server] session is running
+[2025-07-30 21:21:12] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-07-30 21:21:12] info [russh::server] wrote id
+[2025-07-30 21:21:12] info [russh::server] read other id
+[2025-07-30 21:21:12] info [russh::server] session is running
+[2025-07-30 21:21:19] info [rpc.5] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-30 21:21:19] info [rpc.5] Starting server...
+[2025-07-30 21:21:19] info [rpc.5] Server started
+[2025-07-30 21:21:30] info [rpc.5] Forwarding port 3969 (public=false)
+[2025-07-30 21:23:16] info [rpc.5] Disposed of connection to running server.
+[2025-07-30 21:23:16] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-07-30 21:23:16] info [russh::server] wrote id
+[2025-07-30 21:23:16] info [russh::server] read other id
+[2025-07-30 21:23:16] info [russh::server] session is running
+[2025-07-30 21:30:59] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 7
+[2025-07-30 21:30:59] info [russh::server] wrote id
+[2025-07-30 21:30:59] info [russh::server] read other id
+[2025-07-30 21:30:59] info [russh::server] session is running
+[2025-07-30 21:31:06] info [rpc.7] Unforwarding port 3969
+[2025-07-30 21:31:06] info [rpc.7] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-30 21:31:06] info [rpc.7] Found running server (pid=111772)
+[2025-07-30 21:43:46] warn [rpc.7] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-30 21:43:46] info [rpc.7] Disposed of connection to running server.
+[2025-07-30 21:43:49] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 8
+[2025-07-30 21:43:49] info [russh::server] wrote id
+[2025-07-30 21:43:50] info [russh::server] read other id
+[2025-07-30 21:43:50] info [russh::server] session is running
+[2025-07-30 21:43:57] info [rpc.8] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-30 21:43:57] info [rpc.8] Found running server (pid=111772)
+[2025-07-30 21:44:08] info [rpc.8] Forwarding port 5683 (public=false)
+[2025-07-30 21:57:59] warn [rpc.8] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-07-30 21:57:59] info [rpc.8] Disposed of connection to running server.
+[2025-07-31 11:59:22] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 9
+[2025-07-31 11:59:22] info [russh::server] wrote id
+[2025-07-31 11:59:22] info [russh::server] read other id
+[2025-07-31 11:59:22] info [russh::server] session is running
+[2025-07-31 11:59:24] info [rpc.9] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-31 11:59:24] info [rpc.9] Starting server...
+[2025-07-31 11:59:24] info [rpc.9] Server started
+[2025-07-31 12:18:25] info [rpc.9] Disposed of connection to running server.
+[2025-07-31 12:27:10] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 10
+[2025-07-31 12:27:10] info [russh::server] wrote id
+[2025-07-31 12:27:10] info [russh::server] read other id
+[2025-07-31 12:27:10] info [russh::server] session is running
+[2025-07-31 12:27:12] info [rpc.11] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-07-31 12:27:12] info [rpc.11] Found running server (pid=211182)
+[2025-07-31 12:28:16] info [rpc.11] Forwarding port 4599 (public=false)
+[2025-07-31 12:41:03] info [rpc.11] Disposed of connection to running server.
+[2025-07-31 12:41:04] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 11
+[2025-07-31 12:41:04] info [russh::server] wrote id
+[2025-07-31 12:41:04] info [russh::server] read other id
+[2025-07-31 12:41:04] info [russh::server] session is running
+[2025-07-31 14:39:26] warn error refreshing token: WrappedError(WrappedError { message: "error requesting https://login.microsoftonline.com/organizations/oauth2/v2.0/token", original: "error sending request for url (https://login.microsoftonline.com/organizations/oauth2/v2.0/token): error trying to connect: dns error: failed to lookup address information: Try again" })
+[2025-07-31 18:06:26] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-07-31 18:06:26] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-07-31 19:17:24] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-07-31 19:17:24] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-07-31 19:22:28] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-07-31 19:22:28] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-01 03:45:05] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-01 03:45:05] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-01 18:05:33] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-08-01 18:05:33] info [russh::server] wrote id
+[2025-08-01 18:05:33] info [russh::server] read other id
+[2025-08-01 18:05:33] info [russh::server] session is running
+[2025-08-01 18:05:37] info [rpc.12] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-08-01 18:05:37] info [rpc.12] Starting server...
+[2025-08-01 18:05:37] info [rpc.12] Server started
+[2025-08-01 18:05:49] info [rpc.12] Forwarding port 5356 (public=false)
+[2025-08-01 18:06:16] warn [rpc.12] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-08-01 18:06:16] info [rpc.12] Disposed of connection to running server.
+[2025-08-01 18:06:19] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-08-01 18:06:19] info [russh::server] wrote id
+[2025-08-01 18:06:19] info [russh::server] read other id
+[2025-08-01 18:06:19] info [russh::server] session is running
+[2025-08-01 18:06:23] info [rpc.14] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-08-01 18:06:23] info [rpc.14] Found running server (pid=522382)
+[2025-08-01 18:06:26] info [rpc.14] Forwarding port 5683 (public=false)
+[2025-08-01 18:06:31] info [rpc.14] Forwarding port 5003 (public=false)
+[2025-08-01 18:24:37] info [rpc.14] Disposed of connection to running server.
+[2025-08-01 18:24:37] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-08-01 18:24:37] info [russh::server] wrote id
+[2025-08-01 18:24:37] info [russh::server] read other id
+[2025-08-01 18:24:37] info [russh::server] session is running
+[2025-08-01 18:25:10] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-08-01 18:25:10] info [russh::server] wrote id
+[2025-08-01 18:25:10] info [russh::server] read other id
+[2025-08-01 18:25:10] info [russh::server] session is running
+[2025-08-01 18:25:14] info [rpc.15] Unforwarding port 5683
+[2025-08-01 18:25:14] info [rpc.15] Unforwarding port 5003
+[2025-08-01 18:25:15] info [rpc.15] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-08-01 18:25:15] info [rpc.15] Found running server (pid=522382)
+[2025-08-01 18:28:23] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-08-01 18:28:23] info [russh::server] wrote id
+[2025-08-01 18:28:23] info [russh::server] read other id
+[2025-08-01 18:28:23] info [russh::server] session is running
+[2025-08-01 18:29:54] info [rpc.15] Disposed of connection to running server.
+[2025-08-01 18:29:54] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 7
+[2025-08-01 18:29:54] info [russh::server] wrote id
+[2025-08-01 18:29:54] info [russh::server] read other id
+[2025-08-01 18:29:54] info [russh::server] session is running
+[2025-08-01 18:29:54] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 8
+[2025-08-01 18:29:54] info [russh::server] wrote id
+[2025-08-01 18:29:54] info [russh::server] read other id
+[2025-08-01 18:29:54] info [russh::server] session is running
+[2025-08-01 18:30:02] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 9
+[2025-08-01 18:30:02] info [russh::server] wrote id
+[2025-08-01 18:30:02] info [russh::server] read other id
+[2025-08-01 18:30:02] info [russh::server] session is running
+[2025-08-01 18:31:58] info [rpc.16] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-08-01 18:31:58] info [rpc.16] Found running server (pid=522382)
+[2025-08-01 18:55:51] info [rpc.16] Disposed of connection to running server.
+[2025-08-01 19:05:21] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-01 19:05:21] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-01 20:06:25] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-01 20:06:25] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-01 20:15:27] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-01 20:15:27] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-01 20:38:58] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-08-01 20:38:58] info [russh::server] wrote id
+[2025-08-01 20:38:58] info [russh::server] read other id
+[2025-08-01 20:38:58] info [russh::server] session is running
+[2025-08-01 20:38:58] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-08-01 20:38:58] info [russh::server] wrote id
+[2025-08-01 20:38:59] info [russh::server] read other id
+[2025-08-01 20:38:59] info [russh::server] session is running
+[2025-08-01 20:38:59] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-08-01 20:38:59] info [russh::server] wrote id
+[2025-08-01 20:39:02] info [russh::server] read other id
+[2025-08-01 20:39:02] info [russh::server] session is running
+[2025-08-01 21:30:23] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-08-01 21:30:23] info [russh::server] wrote id
+[2025-08-01 21:30:24] info [russh::server] read other id
+[2025-08-01 21:30:24] info [russh::server] session is running
+[2025-08-01 21:30:25] info [rpc.17] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-08-01 21:30:25] info [rpc.17] Found running server (pid=522382)
+[2025-08-01 21:30:37] info [rpc.17] Forwarding port 4706 (public=false)
+[2025-08-01 21:41:10] info [rpc.17] Disposed of connection to running server.
+[2025-08-01 21:41:10] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-08-01 21:41:10] info [russh::server] wrote id
+[2025-08-01 21:41:10] info [russh::server] read other id
+[2025-08-01 21:41:10] info [russh::server] session is running
+[2025-08-02 19:07:26] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-02 19:07:26] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-02 20:36:43] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-08-02 20:36:43] info [russh::server] wrote id
+[2025-08-02 20:36:43] info [russh::server] read other id
+[2025-08-02 20:36:43] info [russh::server] session is running
+[2025-08-02 20:36:51] info [rpc.18] Checking /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/log.txt and /home/nroethler/.vscode/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/pid.txt for a running server...
+[2025-08-02 20:36:51] info [rpc.18] Starting server...
+[2025-08-02 20:36:51] info [rpc.18] Server started
+[2025-08-02 20:36:55] info [rpc.18] Forwarding port 5356 (public=false)
+[2025-08-02 20:37:00] info [rpc.18] Forwarding port 4903 (public=false)
+[2025-08-02 20:39:08] warn [rpc.18] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-08-02 20:39:08] info [rpc.18] Disposed of connection to running server.
+[2025-08-03 19:19:22] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-03 19:19:22] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-04 20:22:21] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-04 20:22:21] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-05 20:14:28] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-05 20:14:28] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-06 19:02:26] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-06 19:02:26] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-06 19:07:27] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-06 19:07:27] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-06 19:22:24] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-06 19:22:24] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-06 20:23:26] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-06 20:23:26] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-07 03:47:00] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-07 03:47:00] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-07 04:56:05] info [tunnels::connections::ws] error reading websocket: IO error: Connection reset by peer (os error 104)
+[2025-08-07 04:56:05] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-07 11:05:34] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-08-07 11:05:34] info [russh::server] wrote id
+[2025-08-07 11:05:34] info [russh::server] read other id
+[2025-08-07 11:05:34] info [russh::server] session is running
+[2025-08-07 11:05:41] info [rpc.20] Checking /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/log.txt and /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/pid.txt for a running server...
+[2025-08-07 11:05:41] info [rpc.20] Downloading Visual Studio Code server -> /tmp/.tmpD0XdYz/vscode-server-linux-x64.tar.gz
+[2025-08-07 11:05:49] info [rpc.20] Starting server...
+[2025-08-07 11:05:49] info [rpc.20] Server started
+[2025-08-07 11:05:56] info [rpc.20] Forwarding port 5356 (public=false)
+[2025-08-07 11:05:56] info [rpc.20] Forwarding port 4903 (public=false)
+[2025-08-07 11:06:04] info [rpc.20] Forwarding port 3034 (public=false)
+[2025-08-07 11:07:33] warn [rpc.20] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-08-07 11:07:33] info [rpc.20] Disposed of connection to running server.
+[2025-08-07 20:27:23] info [tunnels::connections::ws] error reading websocket: WebSocket protocol error: Connection reset without closing handshake
+[2025-08-07 20:27:23] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-08-08 12:15:56] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+[2025-08-08 12:15:56] info [russh::server] wrote id
+[2025-08-08 12:15:56] info [russh::server] read other id
+[2025-08-08 12:15:56] info [russh::server] session is running
+[2025-08-08 12:15:59] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 3
+[2025-08-08 12:15:59] info [russh::server] wrote id
+[2025-08-08 12:15:59] info [russh::server] read other id
+[2025-08-08 12:15:59] info [russh::server] session is running
+[2025-08-08 12:16:03] info [rpc.22] Checking /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/log.txt and /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/pid.txt for a running server...
+[2025-08-08 12:16:03] info [rpc.22] Starting server...
+[2025-08-08 12:16:04] info [rpc.22] Server started
+[2025-08-08 12:16:10] info [rpc.22] Forwarding port 5356 (public=false)
+[2025-08-08 12:16:11] info [rpc.22] Forwarding port 4903 (public=false)
+[2025-08-08 12:16:11] info [rpc.22] Forwarding port 3034 (public=false)
+[2025-08-08 12:16:21] info [rpc.22] Forwarding port 4946 (public=false)
+[2025-08-08 12:16:50] info [rpc.22] Forwarding port 38065 (public=false)
+[2025-08-08 12:17:02] info [rpc.22] Forwarding port 3127 (public=false)
+[2025-08-08 12:17:50] warn [rpc.22] error handling call: NoAttachedServerError(NoAttachedServerError)
+[2025-08-08 12:17:51] info [rpc.22] Disposed of connection to running server.
+[2025-08-08 12:17:53] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 4
+[2025-08-08 12:17:53] info [russh::server] wrote id
+[2025-08-08 12:17:54] info [russh::server] read other id
+[2025-08-08 12:17:54] info [russh::server] session is running
+[2025-08-08 12:18:01] info [rpc.24] Checking /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/log.txt and /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/pid.txt for a running server...
+[2025-08-08 12:18:01] info [rpc.24] Found running server (pid=1497317)
+[2025-08-08 12:18:13] info [rpc.24] Forwarding port 4450 (public=false)
+[2025-08-08 12:21:57] info [rpc.24] Disposed of connection to running server.
+[2025-08-08 12:21:57] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 5
+[2025-08-08 12:21:57] info [russh::server] wrote id
+[2025-08-08 12:21:58] info [russh::server] read other id
+[2025-08-08 12:21:58] info [russh::server] session is running
+[2025-08-08 12:22:01] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 6
+[2025-08-08 12:22:01] info [russh::server] wrote id
+[2025-08-08 12:23:39] info [russh::server] read other id
+[2025-08-08 12:23:39] info [russh::server] session is running
+[2025-08-08 12:23:46] info [rpc.25] Unforwarding port 4450
+[2025-08-08 12:23:46] info [rpc.25] Checking /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/log.txt and /home/nroethler/.vscode/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/pid.txt for a running server...
+[2025-08-08 12:23:46] info [rpc.25] Found running server (pid=1497317)
+[2025-08-08 12:27:01] info [rpc.25] Updating CLI to 1.103.0 (commit e3550cfac4b63ca4eafca7b601f0d2885817fd1f)
+[2025-08-08 12:29:04] info [rpc.25] Forwarding port 34875 (public=false)
+[2025-08-08 12:29:13] info [rpc.25] Forwarding port 3049 (public=false)
+[2025-08-08 12:31:06] info [rpc.25] Disposed of connection to running server.
+[2025-08-08 12:31:06] warn respawn requested, starting new server
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+[2025-08-08 12:31:06] info [rpc.25] Forwarding port 34875 (public=false)
+[2025-08-08 12:31:06] info [rpc.25] Forwarding port 3049 (public=false)
+[2025-08-08 12:31:06] info [rpc.25] Disposed of connection to running server.
+[2025-08-08 12:31:06] warn respawn requested, starting new server
+Connected to an existing tunnel process running on this machine.
+
+Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/AffinityPred
+
+[2025-08-08 12:50:49] info restarting tunnel after client request
+[2025-08-08 12:50:49] info restarting tunnel after client request
+[2025-08-08 13:24:18] info closing tunnel and all clients after a shutdown request
+[2025-08-08 13:24:18] info closing tunnel and all clients after a shutdown request
+[2025-08-08 13:31:15] info restarting tunnel after client request
+[2025-08-08 13:31:15] info restarting tunnel after client request
+[2025-08-08 13:31:17] info restarting tunnel after client request
+[2025-08-08 13:31:17] info restarting tunnel after client request
+[2025-08-08 13:31:21] info closing tunnel and all clients after a shutdown request
+[2025-08-08 13:31:21] info closing tunnel and all clients after a shutdown request
+[2025-08-08 13:44:26] info closing tunnel and all clients after a shutdown request
+[2025-08-08 13:44:26] info closing tunnel and all clients after a shutdown request
+[2025-08-08 14:08:07] info restarting tunnel after client request
+[2025-08-08 14:08:07] info restarting tunnel after client request

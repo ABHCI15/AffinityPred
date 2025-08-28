@@ -279,3 +279,20 @@ Connected to an existing tunnel process running on this machine.
 
 Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/cysdb
 
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+[2025-08-08 13:25:56] info [rpc.25] Forwarding port 34875 (public=false)
+[2025-08-08 13:25:56] info [rpc.25] Forwarding port 3049 (public=false)
+[2025-08-08 13:25:56] info [rpc.25] Disposed of connection to running server.
+[2025-08-08 13:25:56] warn respawn requested, starting new server
+[2025-08-08 13:25:56] info restarting tunnel after client request
+[2025-08-08 13:25:56] info closing tunnel and all clients after a shutdown request
+Connected to an existing tunnel process running on this machine.
+
+Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/AffinityPred
+

@@ -1,9 +1,0 @@
-{
-  "total_negatives": 12201748,
-  "valid_negatives": 12201748,
-  "sampled_negatives": 49511,
-  "n_clusters": 100,
-  "coverage_metrics": {
-    "grid_coverage": 0.9089430894308943,
-    "density_coverage": 0.0040576973069760165,
-    "spread_coverage": 
