@@ -10,6 +10,7 @@ import dgl
 import dgl.function as fn
 from dgl.nn.pytorch.conv import GINEConv
 import math
+from dgl.nn.pytorch.glob import GlobalAttentionPooling
 
 
 # class PositionalEncoding(nn.Module):
@@ -139,11 +140,20 @@ class AdaptivePooling(nn.Module):
             nn.Linear(hidden_dim, 1),
             nn.Softmax(dim=0)
         )
+        self.ap = GlobalAttentionPooling(
+            nn.Sequential(
+                nn.Linear(input_dim, hidden_dim),
+                nn.Tanh(),
+                nn.Linear(hidden_dim, 1)
+            )
+        )
+
         
     def forward(self, g, node_feat):
         # Attention-based pooling
         g.ndata['h'] = node_feat
         attention_weights = self.attention_pool(node_feat)
+        ap_attn = self.ap(g)
         g.ndata['a'] = attention_weights
         
         # Weighted sum pooling
@@ -155,7 +165,7 @@ class AdaptivePooling(nn.Module):
         sum_pool = dgl.sum_nodes(g, 'h')
         
         # Combine all pooling methods
-        return torch.cat([weighted_sum, mean_pool, max_pool, sum_pool], dim=1)
+        return torch.cat([ap_attn, mean_pool, max_pool, sum_pool], dim=1)
 
 
 class GINWithBidirectionalAttention(nn.Module):
