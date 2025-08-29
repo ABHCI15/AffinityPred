@@ -124,7 +124,7 @@ for epoch in range(num_epochs):
             batched_graph = batched_graph.to(device)
             protein_embs = protein_embs.to(device)
             labels = labels.to(device)
-            predictions = model(batched_graph, batched_graph.ndata['feat'], batched_graph.edata['feat'], protein_embs)
+            predictions = model(batched_graph, protein_embs)
             val_predictions.extend(predictions.cpu().tolist())
             val_labels.extend(labels.cpu().tolist())
 
