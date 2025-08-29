@@ -134,12 +134,12 @@ class AdaptivePooling(nn.Module):
     """Adaptive pooling mechanism for graph representations."""
     def __init__(self, input_dim, hidden_dim=256):
         super().__init__()
-        self.attention_pool = nn.Sequential(
-            nn.Linear(input_dim, hidden_dim),
-            nn.Tanh(),
-            nn.Linear(hidden_dim, 1),
-            nn.Softmax(dim=0)
-        )
+        # self.attention_pool = nn.Sequential(
+        #     nn.Linear(input_dim, hidden_dim),
+        #     nn.Tanh(),
+        #     nn.Linear(hidden_dim, 1),
+        #     nn.Softmax(dim=0)
+        # )
         self.ap = GlobalAttentionPooling(
             nn.Sequential(
                 nn.Linear(input_dim, hidden_dim),
@@ -152,12 +152,7 @@ class AdaptivePooling(nn.Module):
     def forward(self, g, node_feat):
         # Attention-based pooling
         g.ndata['h'] = node_feat
-        attention_weights = self.attention_pool(node_feat)
-        ap_attn = self.ap(g)
-        g.ndata['a'] = attention_weights
-        
-        # Weighted sum pooling
-        weighted_sum = dgl.sum_nodes(g, 'h', weight='a')
+        attention_aggregation = self.ap(g,node_feat)
         
         # Traditional pooling methods
         mean_pool = dgl.mean_nodes(g, 'h')
@@ -165,7 +160,7 @@ class AdaptivePooling(nn.Module):
         sum_pool = dgl.sum_nodes(g, 'h')
         
         # Combine all pooling methods
-        return torch.cat([ap_attn, mean_pool, max_pool, sum_pool], dim=1)
+        return torch.cat([attention_aggregation, mean_pool, max_pool, sum_pool], dim=1)
 
 
 class GINWithBidirectionalAttention(nn.Module):
@@ -414,7 +409,7 @@ class GINWithBidirectionalAttention(nn.Module):
         # Final prediction
         output = self.predictor(combined)
         
-        return output.squeeze()
+        return output.squeeze(-1)
 
     def get_attention_weights(self, g, x_prot):
         """

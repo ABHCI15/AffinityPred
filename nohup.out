@@ -296,3 +296,11 @@ Connected to an existing tunnel process running on this machine.
 
 Open this link in your browser https://vscode.dev/tunnel/gpu2/home/nroethler/Code/abhiram/chemmap/AffinityPred
 
+Traceback (most recent call last):
+  File "/home/nroethler/Code/abhiram/chemmap/AffinityPred/train.py", line 56, in <module>
+    df_test = AffinityDataset(pd.read_pickle("processed_data/test_processed.pkl"))
+  File "/home/nroethler/miniconda3/envs/gen_ca/lib/python3.10/site-packages/pandas/io/pickle.py", line 202, in read_pickle
+    return pickle.load(handles.handle)
+  File "/home/nroethler/miniconda3/envs/gen_ca/lib/python3.10/site-packages/dgl/heterograph_index.py", line 47, in __setstate__
+    self.__init_handle_by_constructor__(_CAPI_DGLHeteroUnpickle, state)
+KeyboardInterrupt

@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
 from torch.utils.data import DataLoader
 import torch.optim as optim
-from torch.optim import AdamW
+from torch.optim.adamw import AdamW
 import dgl
 from dgl.nn.pytorch.conv import GINEConv
 from clearml import Logger, Task
@@ -30,10 +30,11 @@ batch_size = 1024
 class AffinityDataset(DGLDataset):
     def __init__(self, df):
         super().__init__(name='affinity_dataset')
-        self.df = df
+        self.df = df.reset_index(drop=True)
         self.graphs = self.df[graph_col]
         self.prot = self.df[p_embed]
         self.y = self.df[y_col]
+
 
     # def process(self):
     #     self.graphs = self.df[graph_col]
@@ -47,20 +48,20 @@ class AffinityDataset(DGLDataset):
         
 
 df_train = AffinityDataset(pd.read_pickle("processed_data/train_processed.pkl"))
-train_loader = GraphDataLoader(df_train, batch_size=batch_size, shuffle=True, num_workers=5)
+train_loader = GraphDataLoader(df_train, batch_size=batch_size, shuffle=True, num_workers=4)
 # del df_train
 df_valid = AffinityDataset(pd.read_pickle("processed_data/valid_processed.pkl"))
-valid_loader = GraphDataLoader(df_valid, batch_size=batch_size, shuffle=False, num_workers=5)
+valid_loader = GraphDataLoader(df_valid, batch_size=batch_size, shuffle=False, num_workers=4)
 # del df_valid
 df_test = AffinityDataset(pd.read_pickle("processed_data/test_processed.pkl"))
-test_loader = GraphDataLoader(df_test, batch_size=batch_size, shuffle=False, num_workers=5)
+test_loader = GraphDataLoader(df_test, batch_size=batch_size, shuffle=False, num_workers=4)
 # del df_test
 
 
 
 
 
-task = Task.init(project_name="AffinityPrediction", task_name="GNN Training", task_type=Task.TaskTypes.optimizer)
+task = Task.init(project_name="AffinityPrediction", task_name="GNN Training")
 
 
 # train step 
@@ -105,7 +106,7 @@ for epoch in range(num_epochs):
         labels = labels.to(device)
 
         optimizer.zero_grad()
-        predictions = model(batched_graph, batched_graph.ndata['feat'], batched_graph.edata['feat'], protein_embs)
+        predictions = model(batched_graph,protein_embs)
         loss = loss_fn(predictions, labels)
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
