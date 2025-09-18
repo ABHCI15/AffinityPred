@@ -9,7 +9,7 @@ from torch.optim.adamw import AdamW
 import dgl
 from dgl.nn.pytorch.conv import GINEConv
 from clearml import Logger, Task
-from models.ginconvBiDirectional import GINWithBidirectionalAttention
+from models.ginconvBiDirectionalNoAttPool import GINWithBidirectionalAttention
 import pandas as pd
 import os
 from dgl.data import DGLDataset
