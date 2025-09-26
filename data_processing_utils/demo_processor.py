@@ -12,7 +12,7 @@ import numpy as np
 # Add the current directory to the path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from prep_data import AffinityDataProcessor
+from AffinityPred.data_processing_utils.prep_data_chembl import AffinityDataProcessor
 
 
 def main():
