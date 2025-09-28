@@ -579,9 +579,7 @@ def collate(samples):
     return AffinityDataProcessor.collate(samples)
 
 
-# Main execution (for backward compatibility)
 if __name__ == "__main__":
-    # Example usage with new class
     processor = AffinityDataProcessor(
         embedding_cache_path="datasets/protein_cysdb_embeddings.pkl", 
         label_col=label_col,
@@ -603,14 +601,13 @@ if __name__ == "__main__":
         train_df, valid_df, test_df, batch_size=128
     )
 
-    # Example usage
     for batch in train_loader:
         if len(batch) == 3:  # graph, protein_emb, labels
             batched_graph, protein_embs, labels = batch
             print("Batched graph:", batched_graph)
             print("Protein embeddings shape:", protein_embs.shape)
             print("Labels:", labels)
-        else:  # graph, labels
+        else:  
             batched_graph, labels = batch
             print("Batched graph:", batched_graph)
             print("Labels:", labels)
