@@ -1,31 +1,4 @@
 datasets
+nohup.out
 *.out
 *.log
-code 
-code.Updating CLI
-processed_data
-.venv
-.vscode
-AGENTS.md
-processed_data_cysdb
-*.npz
-boltz_results_test/
-__pycache__/
-*.pyc
-nohup.out
-# Alphafold outputs (large artifacts)
-AF3-T10/*_output/
-AF3-T10/*_output/*
-AF3-T10/*_single_output/
-AF3-T10/*_single_output/*
-AF3-T10/**/seed-*/
-AF3-T10/**/model.cif
-AF3-T10/**/embeddings.npz
-AF3-T10/**/summary_confidences.json
-AF3-T10/**/confidences.json
-AF3-T10/**/ranking_scores.csv
-AF3-T10/**/data.json
-
-# Model checkpoints
-weights/
-*.pth
