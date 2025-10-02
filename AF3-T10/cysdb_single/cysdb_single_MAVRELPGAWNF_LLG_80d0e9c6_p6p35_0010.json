@@ -1,0 +1,22 @@
+{
+  "name": "cysdb_single_MAVRELPGAWNF_LLG_80d0e9c6_p6p35_0010",
+  "modelSeeds": [
+    0
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MAVRELPGAWNFRDVADTATALRPGRLFRSSELSRLDDAGRATLRRLGITDVADLRSSREVARRGPGRVPDGIDVHLLPFPDLADDDADDSAPHETAFKRLLTNDGSNGESGESSQSINDAATRYMTDEYRQFPTRNGAQRALHRVVTLLAAGRPVLTHCFAGKDRTGFVVALVLEAVGLDRDVIVADYLRSNDSVPQLRARISEMIQQRFDTELAPEVVTFTKARLSDGVLGVRAEYLAAARQTIDETYGSLGGYLRDAGISQATVNRMRGVLLG"
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "smiles": "C=CC(=O)NC1(c2ccc(S(C)(=O)=O)cc2)CCOC1"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 2
+}
