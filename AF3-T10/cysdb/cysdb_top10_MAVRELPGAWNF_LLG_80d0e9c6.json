@@ -1,0 +1,76 @@
+{
+  "name": "cysdb_top10_MAVRELPGAWNF_LLG_80d0e9c6",
+  "modelSeeds": [
+    0
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MAVRELPGAWNFRDVADTATALRPGRLFRSSELSRLDDAGRATLRRLGITDVADLRSSREVARRGPGRVPDGIDVHLLPFPDLADDDADDSAPHETAFKRLLTNDGSNGESGESSQSINDAATRYMTDEYRQFPTRNGAQRALHRVVTLLAAGRPVLTHCFAGKDRTGFVVALVLEAVGLDRDVIVADYLRSNDSVPQLRARISEMIQQRFDTELAPEVVTFTKARLSDGVLGVRAEYLAAARQTIDETYGSLGGYLRDAGISQATVNRMRGVLLG"
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "smiles": "C=CC(=O)NCC1CCCCN1C(=O)C(F)(F)F"
+      }
+    },
+    {
+      "ligand": {
+        "id": "C",
+        "smiles": "C=CC(=O)N1CC(O)(c2cccc3ccccc23)C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "D",
+        "smiles": "C=CC(=O)NC1(c2ccc(S(C)(=O)=O)cc2)CCOC1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "E",
+        "smiles": "C=CC(=O)Nc1cc(C(F)(F)F)cc(S(=O)(=O)F)c1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "F",
+        "smiles": "C=CC(=O)N[C@@H]1CCC(=O)N[C@H]1C(C)(C)C"
+      }
+    },
+    {
+      "ligand": {
+        "id": "G",
+        "smiles": "C=CC(=O)Nc1ccc2c(c1)CCC(=O)N2CC1CC1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "H",
+        "smiles": "C=CC(=O)NC1(c2noc(C(F)F)n2)CCC1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "I",
+        "smiles": "C=CC(=O)N[C@@H]1CCO[C@H]1c1ccc(OC)nc1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "J",
+        "smiles": "C=CC(=O)N1CCCC(n2ccnn2)C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "K",
+        "smiles": "NS(=O)(=O)c1ccc(Cl)c(NC(=O)CCl)c1"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 2
+}

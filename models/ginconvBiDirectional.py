@@ -9,22 +9,23 @@ import dgl
 import dgl.function as fn
 from dgl.nn.pytorch.conv import GINEConv
 import math
+from dgl.nn.pytorch.glob import GlobalAttentionPooling
 
 
-class PositionalEncoding(nn.Module):
-    """Positional encoding for enhanced attention mechanisms."""
-    def __init__(self, d_model, max_len=5000):
-        super().__init__()
-        pe = torch.zeros(max_len, d_model)
-        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
-        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))
-        pe[:, 0::2] = torch.sin(position * div_term)
-        pe[:, 1::2] = torch.cos(position * div_term)
-        pe = pe.unsqueeze(0).transpose(0, 1)
-        self.register_buffer('pe', pe)
+# class PositionalEncoding(nn.Module):
+#     """Positional encoding for enhanced attention mechanisms."""
+#     def __init__(self, d_model, max_len=5000):
+#         super().__init__()
+#         pe = torch.zeros(max_len, d_model)
+#         position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+#         div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))
+#         pe[:, 0::2] = torch.sin(position * div_term)
+#         pe[:, 1::2] = torch.cos(position * div_term)
+#         pe = pe.unsqueeze(0).transpose(0, 1)
+#         self.register_buffer('pe', pe)
 
-    def forward(self, x):
-        return x + self.pe[:x.size(0), :]
+#     def forward(self, x):
+#         return x + self.pe[:x.size(0), :]
 
 
 class BiDirectionalCrossAttention(nn.Module):
@@ -132,21 +133,25 @@ class AdaptivePooling(nn.Module):
     """Adaptive pooling mechanism for graph representations."""
     def __init__(self, input_dim, hidden_dim=256):
         super().__init__()
-        self.attention_pool = nn.Sequential(
-            nn.Linear(input_dim, hidden_dim),
-            nn.Tanh(),
-            nn.Linear(hidden_dim, 1),
-            nn.Softmax(dim=0)
+        # self.attention_pool = nn.Sequential(
+        #     nn.Linear(input_dim, hidden_dim),
+        #     nn.Tanh(),
+        #     nn.Linear(hidden_dim, 1),
+        #     nn.Softmax(dim=0)
+        # )
+        self.ap = GlobalAttentionPooling(
+            nn.Sequential(
+                nn.Linear(input_dim, hidden_dim),
+                nn.Tanh(),
+                nn.Linear(hidden_dim, 1)
+            )
         )
+
         
     def forward(self, g, node_feat):
         # Attention-based pooling
         g.ndata['h'] = node_feat
-        attention_weights = self.attention_pool(node_feat)
-        g.ndata['a'] = attention_weights
-        
-        # Weighted sum pooling
-        weighted_sum = dgl.sum_nodes(g, 'h', weight='a')
+        attention_aggregation = self.ap(g,node_feat)
         
         # Traditional pooling methods
         mean_pool = dgl.mean_nodes(g, 'h')
@@ -154,7 +159,7 @@ class AdaptivePooling(nn.Module):
         sum_pool = dgl.sum_nodes(g, 'h')
         
         # Combine all pooling methods
-        return torch.cat([weighted_sum, mean_pool, max_pool, sum_pool], dim=1)
+        return torch.cat([attention_aggregation, mean_pool, max_pool, sum_pool], dim=1)
 
 
 class GINWithBidirectionalAttention(nn.Module):
@@ -362,7 +367,6 @@ class GINWithBidirectionalAttention(nn.Module):
         h_res4 = h
         h = self.dropout(h)
         
-        # Additional layer for deeper representation
         edge_feat5 = self.edge_proj5(edge_feat)
         h = self.conv5(g, h, edge_feat5)
         h = self.bn5(h)
@@ -404,7 +408,7 @@ class GINWithBidirectionalAttention(nn.Module):
         # Final prediction
         output = self.predictor(combined)
         
-        return output.squeeze()
+        return output.squeeze(-1)
 
     def get_attention_weights(self, g, x_prot):
         """

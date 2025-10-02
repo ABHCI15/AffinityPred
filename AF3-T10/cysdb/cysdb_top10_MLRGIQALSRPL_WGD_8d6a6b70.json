@@ -1,0 +1,76 @@
+{
+  "name": "cysdb_top10_MLRGIQALSRPL_WGD_8d6a6b70",
+  "modelSeeds": [
+    0
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MLRGIQALSRPLTRVYRALAVIGVLAASLLASWVGAVPQVGLAASALPTFAHVVIVVEENRSQAAIIGNKSAPFINSLAANGAMMAQAFAETHPSEPNYLALFAGNTFGLTKNTCPVNGGALPNLGSELLSAGYTFMGFAEDLPAVGSTVCSAGKYARKHVPWVNFSNVPTTLSVPFSAFPKPQNYPGLPTVSFVIPNADNDMHDGSIAQGDAWLNRHLSAYANWAKTNNSLLVVTWDEDDGSSRNQIPTVFYGAHVRPGTYNETISHYNVLSTLEQIYGLPKTGYATNAPPITDIWGD"
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "smiles": "C=CC(=O)NC(c1cccc(C(F)(F)F)c1)c1nnc[nH]1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "C",
+        "smiles": "C=CC(=O)N1CCc2nnc(N(C)C)cc2C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "D",
+        "smiles": "C=CC(=O)N1CC[C@@H]2COC(=O)N[C@H]2C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "E",
+        "smiles": "C=CC(=O)N1CCOC(Cn2ccnn2)C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "F",
+        "smiles": "C=CC(=O)N1CCCC(n2ccnn2)C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "G",
+        "smiles": "C=CC(=O)N[C@H](C(=O)N1CCCC1)C(C)C"
+      }
+    },
+    {
+      "ligand": {
+        "id": "H",
+        "smiles": "C=CC(=O)N1CCN(C(=O)NC2CCCCC2)CC1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "I",
+        "smiles": "C=CC(=O)Nc1ccccc1C1CCC(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "J",
+        "smiles": "C=CC(=O)NC(C)Cc1cc(C)nn1-c1ccccc1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "K",
+        "smiles": "C=CC(=O)N[C@@H]1CCC(=O)N[C@H]1C(C)(C)C"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 2
+}

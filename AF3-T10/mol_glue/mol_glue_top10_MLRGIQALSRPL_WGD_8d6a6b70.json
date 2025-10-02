@@ -1,0 +1,76 @@
+{
+  "name": "mol_glue_top10_MLRGIQALSRPL_WGD_8d6a6b70",
+  "modelSeeds": [
+    0
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MLRGIQALSRPLTRVYRALAVIGVLAASLLASWVGAVPQVGLAASALPTFAHVVIVVEENRSQAAIIGNKSAPFINSLAANGAMMAQAFAETHPSEPNYLALFAGNTFGLTKNTCPVNGGALPNLGSELLSAGYTFMGFAEDLPAVGSTVCSAGKYARKHVPWVNFSNVPTTLSVPFSAFPKPQNYPGLPTVSFVIPNADNDMHDGSIAQGDAWLNRHLSAYANWAKTNNSLLVVTWDEDDGSSRNQIPTVFYGAHVRPGTYNETISHYNVLSTLEQIYGLPKTGYATNAPPITDIWGD"
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "smiles": "C=CC(=O)NC(CC1=CC=C(F)C=C1)C(=O)NCC1=CC=C2C(=O)N(C3CCC(=O)NC3=O)CC2=C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "C",
+        "smiles": "NCCCCNC1=CC(N2C3CCC2CN(C2=CC(C4=CC=CC=C4O)=NN=C2N)C3)=CC=N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "D",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)NC4=C(Cl)C=CC=C4Cl)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "E",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)/C(CC4=CC=C(Br)C=C4)=N/O)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "F",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)/C(CC4=CC=C(Cl)C=C4)=N/O)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "G",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)/C(CC4=CC=C(F)C=C4)=N/O)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "H",
+        "smiles": "O=C1CCC(N2CC3=C(C=CC(CNC(=O)NC4=CC=CC=C4C4=CC=CC=C4)=C3)C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "I",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)/C(CC4=CC=C([N+](=O)[O-])C=C4)=N/O)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "J",
+        "smiles": "NCCC1CC(NC2=CC(N3C4CCC3CN(C3=CC(C5=CC=CC=C5O)=NN=C3N)C4)=CC=N2)C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "K",
+        "smiles": "NCCCCCCC#CC1=CC(N2C3CCC2CN(C2=CC(C4=CC=CC=C4O)=NN=C2N)C3)=CC=N1"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 2
+}

@@ -1,0 +1,76 @@
+{
+  "name": "mol_glue_top10_MAVRELPGAWNF_LLG_80d0e9c6",
+  "modelSeeds": [
+    0
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MAVRELPGAWNFRDVADTATALRPGRLFRSSELSRLDDAGRATLRRLGITDVADLRSSREVARRGPGRVPDGIDVHLLPFPDLADDDADDSAPHETAFKRLLTNDGSNGESGESSQSINDAATRYMTDEYRQFPTRNGAQRALHRVVTLLAAGRPVLTHCFAGKDRTGFVVALVLEAVGLDRDVIVADYLRSNDSVPQLRARISEMIQQRFDTELAPEVVTFTKARLSDGVLGVRAEYLAAARQTIDETYGSLGGYLRDAGISQATVNRMRGVLLG"
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "smiles": "O=C1CCC(N2CC3=C(C=CC(CNC(=O)NC4=CC=CC=C4C4=CC=CC=C4)=C3)C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "C",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)NC4=C(Cl)C=CC=C4Cl)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "D",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)NC4=CC=CC(Cl)=C4)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "E",
+        "smiles": "O=C1CCC(N2CC3=C(NC4=NC(NC5=CC=CC=C5F)NC=C4)C=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "F",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)NC4=C(Cl)C=CC=C4)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "G",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)NC4=C(Cl)C=C(Cl)C=C4)=CC=C3C2=O)C(=O)N1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "H",
+        "smiles": "CC1=CC=C(NC(=O)NCC2=CC=C3C(=O)N(C4CCC(=O)NC4=O)CC3=C2)C=C1Cl"
+      }
+    },
+    {
+      "ligand": {
+        "id": "I",
+        "smiles": "COC1=CC2=C(C=C1)C(CC(=O)NC1=CC=C3C(=O)N(C4CCC(=O)NC4=O)CC3=C1)=CC=C2"
+      }
+    },
+    {
+      "ligand": {
+        "id": "J",
+        "smiles": "CC1=C(C)C2=C(S1)N1C(C)=NN=C1[C@H](CC(=O)N1CCN(C(=O)C3=CC=C(S(=O)(=O)F)N3)CC1)N=C2C1=CC=C(Cl)C=C1"
+      }
+    },
+    {
+      "ligand": {
+        "id": "K",
+        "smiles": "O=C1CCC(N2CC3=CC(CNC(=O)NC4=CC=C(Cl)C=C4)=CC=C3C2=O)C(=O)N1"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 2
+}

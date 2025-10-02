@@ -16,6 +16,11 @@ from sklearn.model_selection import train_test_split
 
 from torch.utils.data import DataLoader
 
+import pickle
+
+input_col = 'SMILES'
+label_col = 'pCHEMBL'
+
 def get_atom_features(atom):
     atom_type = ['C', 'N', 'O', 'S', 'F', 'Si', 'P', 'Cl', 'Br', 'Mg', 'Na','Ca', 'Fe', 'As', 'Al', 'I', 'B', 'V', 'K', 'Tl', 'Yb','Sb', 'Sn', 'Ag', 'Pd', 'Co', 'Se', 'Ti', 'Zn', 'H','Li', 'Ge', 'Cu', 'Au', 'Ni', 'Cd', 'In', 'Mn', 'Zr','Cr', 'Pt', 'Hg', 'Pb', 'Unknown']
     atom_type_enc = [0.0] * len(atom_type)
@@ -121,22 +126,22 @@ def smiles_to_graph(smiles):
         return None
 
 
-def prepare_dataset(csv_path, test_size=0.2, valid_size=0.1, random_state=42):
+def prepare_dataset(csv_path, test_size=0.2, valid_size=0.1, random_state=5, stratification=False):
     df = pd.read_csv(csv_path)
 
-    df.dropna(subset=['SMILES', 'Ratio'], inplace=True)
-    df['Ratio'] = pd.to_numeric(df['Ratio'], errors='coerce')
-    df.dropna(subset=['Ratio'], inplace=True)  
+    df.dropna(subset=[input_col, label_col], inplace=True)
+    df[label_col] = pd.to_numeric(df[label_col], errors='coerce')
+    df.dropna(subset=[label_col], inplace=True)  
     valid_smiles = []
-    for smiles in df['SMILES']:
+    for smiles in df[input_col]:
         mol = Chem.MolFromSmiles(smiles)
         if mol is not None:
             valid_smiles.append(smiles)
     invalid_smiles_count = len(df) - len(valid_smiles)
     print(f"Removed {invalid_smiles_count} invalid SMILES strings.")
-    df = df[df['SMILES'].isin(valid_smiles)]
+    df = df[df[input_col].isin(valid_smiles)]
     cleaned_smiles = []
-    for smiles in df['SMILES']:
+    for smiles in df[input_col]:
         mol = Chem.MolFromSmiles(smiles)
         if mol:
           fragments = Chem.GetMolFrags(mol, asMols=True)
@@ -147,19 +152,19 @@ def prepare_dataset(csv_path, test_size=0.2, valid_size=0.1, random_state=42):
               cleaned_smiles.append(smiles)
         else:
           cleaned_smiles.append(None)
-    df['SMILES'] = cleaned_smiles
-    df.dropna(subset=['SMILES'], inplace=True)
+    df[input_col] = cleaned_smiles
+    df.dropna(subset=[input_col], inplace=True)
 
-    df.sort_values('Ratio', ascending=False, inplace=True)
+    df.sort_values(label_col, ascending=False, inplace=True)
     # df.drop_duplicates(subset=['SMILES'], keep='first', inplace=True)
 
-    lower_bound = df['Ratio'].quantile(0.01)
-    upper_bound = df['Ratio'].quantile(0.99)
-    df['Ratio'] = np.clip(df['Ratio'], lower_bound, upper_bound)
+    lower_bound = df[label_col].quantile(0.01)
+    upper_bound = df[label_col].quantile(0.99)
+    df[label_col] = np.clip(df[label_col], lower_bound, upper_bound)
 
 
 
-    df['graph'] = df['SMILES'].apply(smiles_to_graph)
+    df['graph'] = df[input_col].apply(smiles_to_graph)
     df.dropna(subset=['graph'], inplace=True)
 
 
@@ -194,9 +199,9 @@ if not train_df.empty:
 
 
 
-train_loader = DataLoader(list(zip(train_df['graph'], train_df['Ratio'])), batch_size=32, shuffle=True, collate_fn=collate)
-valid_loader = DataLoader(list(zip(valid_df['graph'], valid_df['Ratio'])), batch_size=32, shuffle=False, collate_fn=collate)
-test_loader = DataLoader(list(zip(test_df['graph'], test_df['Ratio'])), batch_size=32, shuffle=False, collate_fn=collate)
+train_loader = DataLoader(list(zip(train_df['graph'], train_df[label_col])), batch_size=32, shuffle=True, collate_fn=collate)
+valid_loader = DataLoader(list(zip(valid_df['graph'], valid_df[label_col])), batch_size=32, shuffle=False, collate_fn=collate)
+test_loader = DataLoader(list(zip(test_df['graph'], test_df[label_col])), batch_size=32, shuffle=False, collate_fn=collate)
 
 
 
